@@ -1,0 +1,19 @@
+[
+    {
+        "name": "bangkit-backend",
+        "image": "docker.io/rweebs/bangkit-backend",
+        "cpu": 10,
+        "memory": 300,
+        "essential": true,
+        "portMappings": [
+             {
+                 "hostPort": 80,
+                 "containerPort": 8080,
+                 "protocol": "tcp"
+             }
+         ],
+        "links": [],
+        "command": [],
+        "entryPoint": []
+    }
+]

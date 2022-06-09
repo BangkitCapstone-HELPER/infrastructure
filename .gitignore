@@ -1,6 +1,9 @@
-aws/
-gcp/
+
 k8s/deployment/.terraform*
 k8s/deployment/terraform*
 k8s/helper-ns/.terraform*
 k8s/helper-ns/terraform*
+aws/.terraform
+gcp/cloud-storage/.terraform
+gcp/gke/.terraform
+gcp/postgres/.terraform

@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: backend
-        image: docker.io/rweebs/bangkit-backend:latest
+        image: docker.io/rweebs/bangkit-backend2:latest
 
 ---
 apiVersion: v1
@@ -28,4 +28,4 @@ spec:
   - name: backend-port
     protocol: TCP
     port: 80
-    targetPort: 80
+    targetPort: 8080
